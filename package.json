@@ -1,0 +1,28 @@
+{
+  "name": "react-chat-bot",
+  "version": "1.0.0",
+  "description": "A React.js chatbot using Express and Watson Assistant app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losvelle/react-chat-bot.git"
+  },
+  "author": "Carlos Velez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/losvelle/react-chat-bot/issues"
+  },
+  "homepage": "https://github.com/losvelle/react-chat-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^6.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
